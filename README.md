@@ -86,9 +86,9 @@ in above line change to your backend loadbalncer url
 const API_BASE_URL = "http://backend-loadbalancer-url";
 ```
 sudo dnf install -y nodejs
-sudo yum install httpd
-sudo systemctl start httpd
-sudo systemctl enable httpd
+sudo yum install nginx
+sudo systemctl start nginx
+sudo systemctl enable nginx
 ```
 ### then go to client directory 
 ### run below commands
@@ -100,7 +100,7 @@ sudo systemctl enable httpd
 ```
 npm install 
 npm run build
-sudo cp -r build/* /var/www/html
+sudo cp -r build/* /usr/share/nginx/html
 ```
 # your frontend part is completed 
 
