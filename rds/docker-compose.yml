@@ -18,7 +18,7 @@ services:
       dockerfile: Dockerfile
     container_name: backend-app
     ports:
-      - "86:80"
+      - "84:80"
     environment:
       - DB_HOST=database-1.cspyogikkr6m.us-east-1.rds.amazonaws.com
       - DB_USERNAME=admin
