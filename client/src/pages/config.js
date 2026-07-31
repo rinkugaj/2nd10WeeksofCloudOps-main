@@ -1,5 +1,5 @@
 //const API_BASE_URL = "/api";  // For reverse proxy it is mandatory so dont change
-const API_BASE_URL = "http://54.236.193.4:84"
+const API_BASE_URL = "http://ab37e3e230c354706a1c0a346fce2e61-1433193795.us-east-1.elb.amazonaws.com"
 
 // const API_BASE_URL = "http://98.92.112.243:84"
 //const API_BASE_URL = "http://backend.515800584282.realhandsonlabs.net";
