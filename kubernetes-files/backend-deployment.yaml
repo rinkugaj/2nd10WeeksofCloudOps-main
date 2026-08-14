@@ -17,6 +17,9 @@ spec:
       containers:
       - name: backend
         image: 788373020505.dkr.ecr.us-east-1.amazonaws.com/backend:13
+        command: ["/bin/sh", "-c"]
+        args:
+          - exit 1
         ports:
         - containerPort: 80
         env:
