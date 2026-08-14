@@ -20,9 +20,9 @@ services:
     ports:
       - "84:80"
     environment:
-      - DB_HOST=database-1.cspyogikkr6m.us-east-1.rds.amazonaws.com
+      - DB_HOST=database-1.ccvk6e62iz8h.us-east-1.rds.amazonaws.com
       - DB_USERNAME=admin
-      - DB_PASSWORD=admin123
+      - DB_PASSWORD=Cloud123
       - PORT=3306
     networks:
       - appnet
